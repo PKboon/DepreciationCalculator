@@ -1,4 +1,6 @@
 # DepreciationCalculator
+This program is written by Pikulkaew Boonpeng for Advanced Java Programming class by Professor Richmond, A at BunkerHill Community College.
+
 ### Four Depreciation Table Types
 ![01](https://user-images.githubusercontent.com/51871643/71467157-f3a98080-278f-11ea-94f3-eca84894250a.PNG)
 * Runs with Tomcat
