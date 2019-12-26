@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+By: Pikulkaew Boonpeng
+-->
+<html>
+    <head>
+        <title>Depreciation Calculator by Pikulkaew Boonpeng</title>
+    </head>
+    <body bgcolor="LavenderBlush">
+        <h1 align="center" style="color: purple">Depreciation Calculator</h1>
+
+        <form action="DepreciationCalculator.jsp" method="get">
+            <!-- Getting numbers from text fields -->
+            <p align="center">
+                Cost: 
+                <input type="text" name="cost" size="10"/>
+            </p>
+            <p align="center">
+                Scrap: 
+                <input type="text" name="scrap" size="10"/>
+            </p>
+            <p align="center">
+                Life: 
+                <input type="text" name="year" size="10"/>
+            </p>
+
+            <!-- Radio buttons for methods of calculation -->
+            <p align="center">
+                Methods: 
+                <input type="radio" name="method" value="SL" checked/> Straight-Line
+                <input type="radio" name="method" value="UP"/> Units of Production
+                <input type="radio" name="method" value="SYD"/> Sum of the Years Digits
+                <input type="radio" name="method" value="DDB"/> Double Declining Balance
+            </p>
+
+            <!-- Buttons for submitting and resetting-->
+            <p align="center">
+                <input type="submit" value="Calculate"/>
+                <input type="reset" value="Clear"/>
+            </p>
+        </form>
+    </body>
+</html>
